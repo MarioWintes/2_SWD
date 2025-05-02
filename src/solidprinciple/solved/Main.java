@@ -1,5 +1,7 @@
 package solidprinciple.solved;
 
+import solidprinciple.SmartPhonePre;
+
 public class Main {
 
 
@@ -15,6 +17,13 @@ public class Main {
         h.call();
         h.foto();
         h.sms();
+
+        SmartPhonePre spp = new SmartPhonePre("Schlecht implementiertes SmartPhone");
+        spp.browse();
+        spp.call();
+        spp.film();
+        spp.foto();
+        spp.sms();
     }
 
 
