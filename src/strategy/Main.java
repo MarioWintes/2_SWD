@@ -4,10 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        RouteStrategy walkingStrategy = new WalkingStrategy();
 
         Navigation n = new Navigation();
 
+        RouteStrategy walkingStrategy = new WalkingStrategy();
         n.setRouteStrategy(walkingStrategy);
         System.out.println(n.buildRouteOrigin("Graz", "FH"));
 
